@@ -1,0 +1,172 @@
+
+#w100 {
+	font-weight: 100;
+	font-family: "Roboto";
+}
+#w200 {
+	font-weight: 200;
+	font-family: "Roboto";
+}
+#w300 {
+	font-weight: 300;
+	font-family: "Roboto";
+}
+#w400 {
+	font-weight: 400;
+	font-family: "Roboto";
+}
+#w500 {
+	font-weight: 500;
+	font-family: "Roboto";
+}
+#w600 {
+	font-weight: 600;
+	font-family: "Roboto";
+}
+#w700 {
+	font-weight: 700;
+	font-family: "Roboto";
+}
+#w800 {
+	font-weight: 800;
+	font-family: "Roboto";
+}
+#w900 {
+	font-weight: 900;
+	font-family: "Roboto";
+}
+
+
+
+button {
+	cursor: pointer;
+	border: none;
+	text-align: center;
+	display: inline-block; 
+	font-family: "Roboto";
+	font-weight: 100;
+}
+
+
+
+.TealButton {
+	padding: 10px 20px;
+	background-color: #04b879;
+	color: white;
+	font-size: 17px;
+	border-radius: 4px;
+
+}
+
+.Tealanim:hover {
+	background-color: #05D28A;
+	border-radius: 8px;
+	transition: 0.3s;
+}
+
+.BlueButton {
+	padding: 10px 20px;
+	background-color: #3989cd;
+	color: white;
+	font-size: 17px;
+	border-radius: 4px;
+}
+
+.Blueanim:hover {
+	background-color: #47AAFF;
+	border-radius: 8px;
+	transition: 0.3s;
+}
+
+.SeaBlueButton {
+	padding: 10px 20px;
+	background-color: #008593;
+	color: white;
+	font-size: 17px;
+	border-radius: 4px;
+}
+
+.SeaBlueanim:hover {
+	background-color: #00A7B9;
+	border-radius: 8px;
+	transition: 0.3s;
+}
+
+html, body {
+	overflow-x: hidden;
+	margin: 0;
+	height: 100%;
+	text-align: center;
+	font-size: 100px;
+	font-family: "Roboto";
+	font-weight: 500;
+	color: #ffffff;
+}
+
+header {
+	position: relative;
+	margin: 0px;
+	padding: 50px;
+	font-size: 50px;
+	text-align: center;
+	background-color: #3989cd;
+	color: #E6E6E6; /*This is the font color*/
+}
+
+footer {
+	position: relative;
+	margin: 0;
+	padding: 100px;
+	text-align: center;
+	font-size: 20px;
+	background-color: #455255;
+	color: #ffffff; /*This is the font color*/
+}
+
+
+.tablinks {
+	background-color: #555;
+	color: white;
+	float: left;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	padding: 14px 16px;
+	font-size: 17px;
+	width: 25%
+}
+
+.tablink:hover {
+	background-color: #777;
+}
+
+.tabcontent {
+	color: white;
+	display: none;
+	padding: 100px 20px;
+	height: 100%;
+}
+
+#Work {
+	background-color: blue;
+}
+#About {
+	background-color: teal;
+}
+#Contact {
+	background-color: green;
+}
+
+
+section {
+	position: relative;
+	margin: 0px;
+	text-align: center;
+}
+
+#FirstSection {
+	padding: 100px;
+	background-color: white;
+	color: #E6E6E6;
+}
+
